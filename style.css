@@ -1,0 +1,168 @@
+*{
+    box-sizing: border-box;
+    /* height: 1000px; */
+}
+
+
+body{
+    /* width: 100%; */
+    /* height: 700px;  */
+     /* display: block;
+    padding: 100px 150px; */
+    /* background-color:hsl(255, 90%, 65% ); */
+    
+    margin: 0;
+    width: 1400px;
+    height: 1000px;
+    /* background-color: hsl(240, 100%, 0%, ); */
+}
+#mama{
+    /* width: 1400px; */
+    width: 1380px;
+    height: 600px;
+    margin: auto;
+    background-color:hsl(255, 90%, 65% );
+}
+#href a{
+    display: inline-block;
+    color: whitesmoke;
+    text-decoration: none;
+    position: relative;
+    left: 300px;
+    padding: 10px 14px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+#href div{
+    color: whitesmoke;
+    float: left;
+    font-size: 22px;
+    margin-left: 43px;
+    margin-top: 15px;
+}
+#laf a{
+    color: whitesmoke;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 12px;
+    position: relative;
+    bottom: 15px;
+    left: 1130px;
+    font-size: 16px;
+    background-color: hsla(77, 100%, 90%, 0.3);
+    text-align: center;
+    padding: 5px 5px;
+    border-radius: 12px;
+}
+.logo {
+        color:hsl(260, 100%, 40% ); 
+         text-align: center;
+        background-color: white;
+        margin-top: 10px;
+        padding: 5px;
+        width: 30px;
+        height: 50px;
+        font-size: 30px;
+        border-radius: 50px;
+        position: relative;
+        bottom: 45px;
+        left:10px; 
+}
+
+.start{
+        white-space: pre;
+        font-size: 20px;
+        color: white;
+        position: relative;
+        top: 10px;
+        left: 700px;
+        font-size: 20px;
+        font-weight: lighter;
+        font-family: monospace;
+}
+
+#image{
+    margin-left: 100px;
+    background-color: hsla(255, 90%, 65%, 0.2);
+    position: relative;
+    bottom: 110px;
+    left: 300px;
+    border-radius: 20px;
+    font-size: 10px;
+}
+#p{
+    color: whitesmoke;
+    font-size: 16px;
+    white-space: pre;
+    position: relative;
+    left: 700px;
+    top: 170px;
+}
+
+.app{
+    background-color:whitesmoke;
+    padding: 6px 8px;
+    width: 120px;
+    font-weight: 10px;
+    border-radius: 25px;
+    position: relative;
+    top: 300px;
+    left: 700px;
+}
+
+#blue{
+    background-color:hsl(260, 100%, 40% ); 
+    width: 28px;
+    height: 25px;
+    border-radius: 50%;
+    padding: 4px 10px;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    position: relative;
+    top: 180px;
+    left: 750px;
+}
+.white{
+    font-size: 12px;
+    font-weight: bold;
+    position: relative;
+    top: 190px;
+    left: 740px;
+    }
+
+    #beauty{
+        color:hsl(255, 90%, 65% );
+        white-space: pre;
+        font-weight: bold;
+        position: relative;
+        top: 200px;
+        left: 500px;
+    }
+    @media screen  and (max-width: 600px) {
+
+        body{
+            width: 100%;
+        }
+        .normal{
+           width: 100%; 
+        }
+        #href a{
+            float: none;
+            font-size: 10px;
+            margin-bottom: 8px;
+        }
+        #href div{
+            display: block;
+            font-size: 18px;
+        }
+        #laf{
+            font-size: 12px;
+            margin-top: 10px;
+            margin-left: 33px;
+        }
+    }
+
+
+
+    
